@@ -7,19 +7,19 @@ body {
     width: 100%;
     height: 55vh;
     margin: 0 auto;
-    background-image: url(fonn.jpg);
+    background: url(fonn.jpg);
     background-repeat: no-repeat;
     background-size: contain;  
     display: flex;
     justify-content: end;
     position: relative;
     box-sizing: border-box;
-    min-width: 1520px;
+    min-width: 1519px;
 
 
 }    
 
-.f0 {
+.cit {
     margin:0;
     color: white;
     font: verdana;
@@ -37,12 +37,12 @@ body {
     padding-right: 10px;
 }
 
-.f0:hover {
+.cit:hover {
     color:rgb(149, 32, 28);
     text-shadow: 2px 2px 5px rgb(162, 43, 43);
 }
 
-.d {
+.disco {
     writing-mode: vertical-rl;
     font: 200 normal 330%/10vh sans-serif;
     text-transform: uppercase;
@@ -55,5 +55,140 @@ body {
     padding-top: 10px;
     position: absolute;
     margin: 0;
-    transition: color .8s linear;
+    transition: background-image .5s linear;
+
+
   }
+
+.disco:hover {
+    background-image: url("textfon.png");
+
+}
+
+.smsfon {
+    background: url(sms.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-size: contain;  
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    min-width: 1519px;
+    background-size: cover;
+
+    
+  
+}
+
+.chat {
+    vertical-align: center;
+    width: 865px;
+    height: 1180px;
+    font: verdana;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    font-size: 28px;
+    text-transform: lowercase;
+    text-align: left;
+    
+
+
+}
+
+.kim1, .kim2, .kim3, .kim4 {
+    line-height: 2;
+    font: verdana;
+    margin: 0;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    font-size: 28px;
+    text-transform: lowercase;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.8s linear;
+}
+
+.kim1:hover, .kim2:hover, .butt:hover, .vz:hover {
+
+    opacity: 1;
+
+}
+
+
+.vz {
+    width: 800px;
+    height: 30px;
+    line-height: 2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.8s linear;
+}
+
+.butt{
+    line-height: 2;
+    margin: 0 auto;
+    background-color: #fff;
+    font-family: footlight mt light ;
+    color:#0b0b0b;
+    width: 400px;
+    height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.vidsms {
+    display: none;
+    width: 865px;
+    height: 485px;
+    line-height: 2;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 0.8s linear;
+    
+
+}
+
+
+.comm {
+
+    line-height: 2;
+    font: monospace;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.partkim {
+    position: absolute;
+    line-height: 2;
+    margin: 0 ;
+    text-align: left;
+}
+.vidkim1, .vidkim2 {
+
+    line-height: 3;
+    font: verdana ;
+    margin: 0 ;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    font-size:28px;
+    text-transform: lowercase;
+    text-align: left;
+
+
+}
+
